@@ -1,0 +1,46 @@
+/*  Writting some basic css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%
+}
+
+
+body{
+    color: black;
+    background: white;
+    text-rendering: optimizeLegibility;
+}
+
+
+.game-container{
+    background: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.game-container__square{
+    font-size: 3rem;
+    display: flex;
+    background: purple;
+    height: 10rem;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+/*  Now we have made our board now its time for some java script*/
