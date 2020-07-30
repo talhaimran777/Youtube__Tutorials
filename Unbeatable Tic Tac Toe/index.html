@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href = "../Unbeatable Tic Tac Toe/css/main.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="scoreboard">
+        <h1 class = "scoreboard__heading">Score <span class = "scoreboard__heading--light-part">Board</span> </h1>
+        <b class="scoreboard__player-data">
+
+            <div class="scoreboard__player-data__player scoreboard__player-data__player--computer">
+                <h4 class = "scoreboard__player-data__player__name scoreboard__player-data__player__name--computer"> Computer Score</h4>
+                <p class = "scoreboard__player-data__player__score scoreboard__player-data__player__score--X"> 0 </p>
+            </div>
+
+            <div class="scoreboard__player-data__player scoreboard__player-data__player--human">
+                <h4 class = "scoreboard__player-data__player__name scoreboard__player-data__player__name--human"> Your Score</h4>
+                <p class = "scoreboard__player-data__player__score scoreboard__player-data__player__score--O"> 0 </p>
+            </div>
+
+            <div class="scoreboard__player-data__player scoreboard__player-data__player--human">
+                <h4 class = "scoreboard__player-data__player__name"> Draws </h4>
+                <p class = "scoreboard__player-data__player__score scoreboard__player-data__player__score--tie"> 0 </p>
+            </div>
+
+            <div class="scoreboard__player-data__player scoreboard__player-data__player--human">
+                <h4 class = "scoreboard__player-data__player__name"> Result </h4>
+                <p class = "scoreboard__player-data__player__score" id = "winner"> </p>
+            </div>
+
+            <a class="scoreboard__player-data__button scoreboard__player-data__button--reset-btn">
+                Reset Scores
+            </a>
+
+            <a class="scoreboard__player-data__button scoreboard__player-data__button--restart-btn">
+                Restart Game
+            </a>
+
+        </div>
+    </div>
+    <script src = "../Unbeatable Tic Tac Toe/js/script.js"></script>
+</body>
+</html>
